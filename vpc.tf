@@ -14,6 +14,6 @@ module "vpc" {
   azs = ["${var.region}a", "${var.region}b", "${var.region}c"]
 
   tags {
-    "Environment" = var.env
+    Environment = var.env
   }
 }
